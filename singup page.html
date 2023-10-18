@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thomas Cook</title>
+    <link rel="stylesheet" href="singup page.css">
+</head>
+
+<body>
+    <div class="container" id="signup-container">
+        <h1>Sign Up to Travel</h1>
+        <form action="/signup" method="post">
+            <label for="title">Title</label>
+            <select name="title">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+                <option value="mrs">Mrs.</option>
+            </select>
+            <label for="Name">Full Name</label>
+            <input type="text" name="Name" placeholder="Enter Your Name">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" placeholder="Your Email Address">
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" name="mobile" placeholder="Mobile No">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password">
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" placeholder="Confirm Password">
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>Already have an account? <a href="index.html">Login</a></p>
+    </div>
+
+    <script src="signup page.js"></script>
+</body>
+
+</html>
